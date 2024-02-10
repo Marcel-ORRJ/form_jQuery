@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form jQuery</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Formulário jQuery</h1>
+            <h2>Prática - Plugin jQuery</h2>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="progresso">
+                <div id="barra-progresso"></div>
+            </div>
+            <form id="form">
+                <label for="form-nome">Nome:</label>
+                <input type="text" id="form-nome" name="nome" maxlength="35"/>
+                <label for="form-email">E-mail:</label>
+                <input type="email" id="form-email" name="email"/>
+                <label for="form-telefone">Telefone:</label>
+                <input type="tel" id="form-telefone" name="telefone"/>
+                <label for="form-cpf">CPF:</label>
+                <input type="text" id="form-cpf" name="cpf"/>
+                <label for="form-endereco">Endereço:</label>
+                <input type="text" id="form-endereco" name="endereco" maxlength="48"/>
+                <label for="form-cep">CEP:</label>
+                <input type="text" id="form-cep" name="cep"/>
+                <button type="submit" id="form-Sbtn">Enviar formulário</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>2024 &copy; EBAC - Desenvolvedor Full Stack Python</p>
+            <p>Atividade prática desenvolvida por: Marcelo Roberto Rosa Junior</p>
+        </div>
+    </footer>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

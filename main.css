@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1080px;
+}
+
+section > .container {
+    max-width: 360px;
+}
+
+.progresso {
+    display: flex;
+    height: 20px;
+    background-color: #f0f0f0;
+    margin: 16px 0;
+    border-radius: 5px;
+}
+
+#barra-progresso {
+    height: 100%;
+    border-radius: 5px;
+    background-color: #4caf50;
+    width: 0;
+    transition: width 0.5s ease-in-out;
+}
+
+header, footer {
+    text-align: center;
+    padding: 16px;
+    background-color: #4caf50;
+    color: #fff;
+}
+
+#form label {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    font-weight: bold;
+}
+
+#form input {
+    width: 100%;
+    height: 32px;
+}
+
+button {
+    margin: 16px 0;
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color: #119759;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #13a863;
+}
+
+
+
